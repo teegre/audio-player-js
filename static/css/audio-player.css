@@ -1,11 +1,11 @@
 .audio-player {
   font-family: Roboto, sans-serif;
   background-color: whitesmoke;
-  color: purple;
+  color: black;
 }
 
 .album-cover {
-  border: 2px solid purple;
+  border: 2px solid black;
   border-radius: 4px;
   height: 350px;
   padding: 4px; 
@@ -36,13 +36,13 @@
 [class^=play-btn-] img {
   height: 16px;
   width: 16px;
-  filter: invert(12%) sepia(70%) saturate(5983%) hue-rotate(294deg) brightness(74%) contrast(129%);
+  /* filter: invert(12%) sepia(70%) saturate(5983%) hue-rotate(294deg) brightness(74%) contrast(129%); */
 }
 
 .controls {
   display: flex;
   align-items: center;
-  background-color: purple;
+  background-color: black;
   color: whitesmoke;
   border-radius: 4px;
   margin-top: 4;
