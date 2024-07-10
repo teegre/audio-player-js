@@ -1,0 +1,82 @@
+.audio-player {
+  font-family: Roboto, sans-serif;
+  background-color: whitesmoke;
+  color: purple;
+}
+
+.album-cover {
+  border: 2px solid purple;
+  border-radius: 4px;
+  height: 350px;
+  padding: 4px; 
+}
+
+.main-play-btn {
+  height: 32px;
+  width: 32px;
+  border: none;
+  background-color: transparent;
+  border-radius: 4px;
+  transition: .25s;
+}
+
+.main-play-btn img {
+  height: 24px;
+  width: 24px;
+  filter: invert(99%) sepia(6%) saturate(49%) hue-rotate(317deg) brightness(115%) contrast(92%);
+}
+
+[class^=play-btn-] {
+  border: none;
+  height: 24px;
+  width: 24px;
+  transition: .25s;
+}
+
+[class^=play-btn-] img {
+  height: 16px;
+  width: 16px;
+  filter: invert(12%) sepia(70%) saturate(5983%) hue-rotate(294deg) brightness(74%) contrast(129%);
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  background-color: purple;
+  color: whitesmoke;
+  border-radius: 4px;
+  margin-top: 4;
+}
+
+.title {
+  font-weight: bold;
+  font-size: large;
+  vertical-align: middle;
+}
+
+.track-time {
+  margin-left: auto;
+  margin-right: 4;
+  font-family: Monospace;
+  letter-spacing: -2px;  
+}
+
+#playlist {
+  margin-top: 8px;
+  display: contents;
+  flex-direction: column;
+}
+
+.track {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.track-duration {
+  margin-left: auto;
+  font-family: Monospace;
+  font-weight: bold;
+  letter-spacing: -2px;
+  margin-right: 4px;
+}
